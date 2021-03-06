@@ -20,7 +20,7 @@ First and foremost while the Survey was a Global survey I decided to Limit the d
 
 The answers to the Playstyles questions were in a free form format there weren't set responses for each category so I had to filter different playstyles based on the Key phrases for each specifically Singleplayer , Multiplayer, and all. As a result some participants may have been excluded from my analysis. 
 
-> Indented block 
+> 
 I chose to include gamers who focus on both with the the gamers that focus on Multiplayer games as I was most interested in the difference from a Singleplayer perspective but further analysis could be done to analyze the differences between the different categories.
 
 To further vizualise any difference between the two groups I graphed the distribution of GAD scores for both in the graphs below:
