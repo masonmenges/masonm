@@ -26,3 +26,17 @@ I chose to include gamers who focus on both with the the gamers that focus on Mu
 To further vizualise any difference between the two groups I graphed the distribution of GAD scores for both in the graphs below:
 
 ![MP_GAD_Scores.png](/assets/img/OnlineGamingAnxiety/MP_GAD_Scores.png) ![SP_GAD_Scores.png](/assets/img/OnlineGamingAnxiety/SP_GAD_Scores.png)
+
+As you can see both ended up looking pretty similar as they are both skewed pretty heavily to the left and follow a similar pattern, I then calculated the mean GAD score for both data sets with Multiplayers having a mean GAD score of 5.32 and Singleplayers having a Mean GAD score of 5.66.
+
+I then chose to perform a t-test to determine if their is a statistically significant difference between the mean GAD scores for participants with a Multiplayer playstyle vs. those with a Single player playstyle at a 95% confidence level or in other words:
+
+$H_0$ = The mean GAD score for participants with a multiplayer playstyle is not different from participants with a singleplayer playstyle
+
+$H_a$ = The mean GAD score for participants with a multiplayer playstyle is different from participants with a singleplayer playstyle
+
+## Results
+
+The P-value for this test calculated to ~0.25 which based on a significance level of 0.05 would not allow us to reject the Null hypothesis so we can conclude that there is not a statistically significant difference between the mean General Anxiety Disorder scores for Survey Participants with a Singleplayer playstyle vs. a Multiplayer playstyle.
+
+It should be noted that in this analysis I simplified the "Playstyles" to only Singleplayer and Multiplayer when in actuality the responses to the Playstyle question on the data set were a bit more varied containing information related to playing only with friends or with complete strangers. In addition there was a significantly larger number of Multiplayer Participants than Singleplayer, roughly a ratio of 16:1 in the US, though both had a sufficiently large enough sample size (greater than 40) so while it may have impacted the results a bit I don't think it would be enough to affect my conclsion.
