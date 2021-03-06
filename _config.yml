@@ -6,7 +6,7 @@
 # --- Required options --- #
 
 # Name of website
-title: MasonM2 Projects and Posts
+title: Mason M. Posts
 
 # Your name to show in the footer
 author: Mason Menges
@@ -96,7 +96,7 @@ feed_show_tags: true
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#87a6ad"
+navbar-col: "#548e9c"
 navbar-text-col: "#404040"
 navbar-border-col: "#DDDDDD"
 page-col: "#FFFFFF"
