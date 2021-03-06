@@ -25,4 +25,4 @@ I chose to include gamers who focus on both with the the gamers that focus on Mu
 
 To further vizualise any difference between the two groups I graphed the distribution of GAD scores for both in the graphs below:
 
-![MP_GAD_Scores.png](assets/img/OnlineGamingAnxiety/MP_GAD_Scores.png)
+![MP_GAD_Scores.png](assets/img/OnlineGamingAnxiety/MP_GAD_Scores.png) ![SP_GAD_Scores.png](assets/img/OnlineGamingAnxiety/SP_GAD_Scores.png)
