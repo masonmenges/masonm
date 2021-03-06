@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Anxiety In Gamers
-subtitle: Is there a difference between Gamers with different playstyles?
+subtitle: Is there a difference in General Anxiety between Gamers with different playstyles?
 tags: [Vizualizations, Data Science]
 ---
 
@@ -13,3 +13,16 @@ After exploring the data I noticed that the Survey had included a question for p
 
 Data was originally gathered by Marian Sauter and Dejan Draschkow.
 [Kaggle Dataset](https://www.kaggle.com/divyansh22/online-gaming-anxiety-data) 
+
+## Data Analysis
+
+First and foremost while the Survey was a Global survey I decided to Limit the data I was analyzing to participants in the US being that I live in the US and was most interested in the answer from a regional context that I can relate to. After filtering the dataset to contain only records in the US I further simplified it to contain only the Participants Playstyles and their General Anxiety Disorder scores. I then seperated the Dataset to contain only participants who primarily focus on Singleplayer games and participants who primarily focus on Multiplayer games or both. 
+
+The answers to the Playstyles questions were in a free form format there weren't set responses for each category so I had to filter different playstyles based on the Key phrases for each specifically Singleplayer , Multiplayer, and all. As a result some participants may have been excluded from my analysis. 
+
+> Indented block 
+I chose to include gamers who focus on both with the the gamers that focus on Multiplayer games as I was most interested in the difference from a Singleplayer perspective but further analysis could be done to analyze the differences between the different categories.
+
+To further vizualise any difference between the two groups I graphed the distribution of GAD scores for both in the graphs below:
+
+![MP_GAD_Scores.png] (assets/img/OnlineGamingAnxiety/MP_GAD_Scores.png)
