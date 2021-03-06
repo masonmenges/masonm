@@ -25,7 +25,7 @@ I chose to include gamers who focus on both with the the gamers that focus on Mu
 
 To further vizualise any difference between the two groups I graphed the distribution of GAD scores for both in the graphs below:
 
-![MP_GAD_Scores.png](https://github.com/masonmenges/masonm/tree/master/assets/img/OnlineGamingAnxiety/MP_GAD_Scores.png) ![SP_GAD_Scores.png](.../assets/img/OnlineGamingAnxiety/SP_GAD_Scores.png)
+![MP_GAD_Scores.png](assets/img/OnlineGamingAnxiety/MP_GAD_Scores.png) ![SP_GAD_Scores.png](assets/img/OnlineGamingAnxiety/SP_GAD_Scores.png)
 
 As you can see both ended up looking pretty similar as they are both skewed pretty heavily to the left and follow a similar pattern, I then calculated the mean GAD score for both data sets with Multiplayers having a mean GAD score of 5.32 and Singleplayers having a Mean GAD score of 5.66.
 
