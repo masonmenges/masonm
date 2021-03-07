@@ -25,7 +25,7 @@ I chose to include gamers who focus on both with the the gamers that focus on Mu
 
 To further vizualise any difference between the two groups I graphed the distribution of GAD scores for both in the graphs below:
 
-![MP_GAD_Scores.png](../assets/img/OnlineGamingAnxiety/MP_GAD_Scores.png) ![SP_GAD_Scores.png](../assets/img/OnlineGamingAnxiety/SP_GAD_Scores.png)
+![MP_GAD_Scores](../assets/img/OnlineGamingAnxiety/MP_GAD_Scores.png) ![SP_GAD_Scores](../assets/img/OnlineGamingAnxiety/SP_GAD_Scores.png)
 
 As you can see both ended up looking pretty similar as they are both skewed pretty heavily to the left and follow a similar pattern, I then calculated the mean GAD score for both data sets with Multiplayers having a mean GAD score of 5.32 and Singleplayers having a Mean GAD score of 5.66.
 
@@ -42,3 +42,15 @@ The P-value for this test calculated to ~0.25 which based on a significance leve
 It should be noted that in this analysis I simplified the "Playstyles" to only Singleplayer and Multiplayer when in actuality the responses to the Playstyle question on the data set were a bit more varied containing information related to playing only with friends or with complete strangers. In addition there was a significantly larger number of Multiplayer Participants than Singleplayer, roughly a ratio of 16:1 in the US, though both had a sufficiently large enough sample size (greater than 40) so while it may have impacted the results a bit I don't think it would be enough to affect my conclsion.
 
 Though there doesn't appear to be any difference between the mean GAD scores for survery participants it would be interesting to see how this compares to the GAD scores for Participants outside of the US, Another question I thought would be interesting to look into with this data set would be if there is any sort of predictive relationship between the Satisfaction with Life scores and the General Anxiety scores.
+
+## But wait there's more!!
+
+I decided to follow up on one of the questions I had after looking at the dataset originally and wanted to know if there was actually a Predicitive relationship between Satisfaction with life scores and General Anxiety scores. Using the same dataset containing only participants in the US I used a pair plot to see if I could see a relationship for these columns in the dataset Hours, whyplay, Work, Playstyle, GAD_T (General Anxiety Disorder Score), SWL_T(Satisfaction With Life Score)  and SPIN_T (Social Phobia Inventory Score). None of the plots had any obvious patterns that I could see, Satisfaction with Life and General Anxiety Disorder Score being the best of what was available.
+
+![SWL_vs_GAD_Scatter](../assets/img/OnlineGamingAnxiety/SWL_vs_GAD_Scatter.png)
+
+Not much to see there really but I went ahead and fit a linear regression model to see if there was a relationship between the two variables and to my great surprise there actually was with a P-value less than 0.000, it's a weak relationship as it only accounts for ~16% of the variability in the data but still more than I was expecting. In looking at the graph again I realized that due to the relatively large number of participants and the fact that all of the Values were limited to 0-21 for the GAD scores and 0-35 there was bound to be points on virtually every value and most of those points would be overlapping, so I altered the graph a little bit to display a confidence interval centered around the mean (x_bins for an lmplot) for the Satisfaction with Life values at each value of the GAD scores.
+
+![SWL_vs_GAD](../assets/img/OnlineGamingAnxiety/SWL_vs_GAD.png)
+
+Voila!! It's much easier to see the relationship between the two variables when viewing the mean Satisfaction with Life values for each General Anxiety Disorder score since this takes into account all values even those that overlap on the Scatter plot. 
