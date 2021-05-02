@@ -31,7 +31,7 @@ To determine which features had the greatest impact I used Permutation Importanc
 
 ![XGBImportances](../assets/img/MHIT/XGBImportances.png)
 
-The two features with the greatest impact in both models “obs_poor_response_worklplace”, the participant has observed or experienced a poor reaction to mental health issues in their workplace, and “discussion_neg_consequences_mental”, the participant believes discussing their mental health will have negative consequences in regards to their career,  both intuitively make sense as in essence the model is stating that if you’ve had negative experiences in the workplace related to mental or you believe discussing mental health will negatively affect your position that will have a larger impact in regards to how likely you are to discuss those issues in your workplace.
+The two features with the greatest impact in both models “obs_poor_response_worklplace”, the participant has observed or experienced a poor reaction to mental health issues in their workplace, and “discussion_neg_consequences_mental”, the participant believes discussing their mental health will have negative consequences in regards to their career,  both intuitively make sense as in essence the model is stating that if you’ve had negative experiences in the workplace related to mental health or you believe discussing mental health will negatively affect your position that will have a larger impact in regards to how likely you are to discuss those issues in your workplace.
 
 ## Conclusion
 
